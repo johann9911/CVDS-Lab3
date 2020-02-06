@@ -12,7 +12,6 @@ public class RegistryTest {
 
         Person person = new Person("pepito Perez2",1000032927,20,Gender.MALE,true);
         RegisterResult result = registry.registerVoter(person);
-        System.out.println(result);
         Assert.assertEquals(RegisterResult.INVALID, result);
     }
     
@@ -21,8 +20,17 @@ public class RegistryTest {
 
         Person person = new Person("pepito Perez",1000032927,2,Gender.MALE,true);
         RegisterResult result = registry.registerVoter(person);
-        System.out.println(result);
         Assert.assertEquals(RegisterResult.UNDERAGE, result);
+    }
+    
+    @Test
+    public void DeberiaValidarNumerosUnicos() {
+        Person person = new Person("pepito Perez",1000032927,20,Gender.MALE,true);
+        Person person2 = new Person("Andrea Perez",1000032927,24,Gender.FEMALE,true);
+        RegisterResult result = registry.registerVoter(person);
+        RegisterResult result2 = registry.registerVoter(person2);
+        Assert.assertEquals(RegisterResult.VALID, result);
+        Assert.assertEquals(RegisterResult.DUPLICATED, result2);
     }
     
     

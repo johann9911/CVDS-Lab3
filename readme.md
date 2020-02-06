@@ -1,7 +1,7 @@
 # Lab 1
 **Integrantes:**
 1. **Johan Guerrero**
-2. **Johan Bogota**
+2. **Johann Bogota**
 
 
 ## clases de equivalencia lab3:
