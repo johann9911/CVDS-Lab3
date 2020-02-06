@@ -12,7 +12,6 @@ public class RegistryTest {
 
         Person person = new Person("pepito Perez2",1000032927,20,Gender.MALE,true);
         RegisterResult result = registry.registerVoter(person);
-        System.out.println(result);
         Assert.assertEquals(RegisterResult.INVALID, result);
     }
     
@@ -21,8 +20,14 @@ public class RegistryTest {
 
         Person person = new Person("pepito Perez",1000032927,2,Gender.MALE,true);
         RegisterResult result = registry.registerVoter(person);
-        System.out.println(result);
         Assert.assertEquals(RegisterResult.UNDERAGE, result);
+    }
+    
+    @Test
+    public void DeberiaInvalidarUnaEdadErronea() {
+    	Person person = new Person("pepito Perez",1000032927,-12,Gender.MALE,true);
+    	RegisterResult result = registry.registerVoter(person);
+    	Assert.assertEquals(RegisterResult.INVALID_AGE, result);
     }
     
     
