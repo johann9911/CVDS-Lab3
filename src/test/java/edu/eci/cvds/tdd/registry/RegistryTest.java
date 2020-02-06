@@ -12,6 +12,7 @@ public class RegistryTest {
 
         Person person = new Person("pepito Perez2",1000032927,20,Gender.MALE,true);
         RegisterResult result = registry.registerVoter(person);
+        System.out.println(result);
         Assert.assertEquals(RegisterResult.INVALID, result);
     }
     
@@ -23,6 +24,7 @@ public class RegistryTest {
         System.out.println(result);
         Assert.assertEquals(RegisterResult.UNDERAGE, result);
     }
+    
     
     public void validateRegistryResult() {
 

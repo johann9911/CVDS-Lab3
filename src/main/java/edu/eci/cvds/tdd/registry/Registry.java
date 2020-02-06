@@ -15,10 +15,23 @@ public class Registry {
         	}
         }
         //if(!(p.getGender().equals(Gender.FEMALE) || p.getGender().equals(Gender.MALE)|| p.getGender().equals(Gender.UNIDENTIFIED))); registro = RegisterResult.INVALID;
-        if(!p.getName().equals(p.getName().toString()))registro = RegisterResult.INVALID;
+        if(!esSoloLetras(p.getName()))registro = RegisterResult.INVALID;
         if(!p.isAlive())registro = RegisterResult.DEAD;
         if(identificaciones.contains(p.getId())) registro= RegisterResult.DUPLICATED;
         identificaciones.add(p.getId());
         return registro;
     }
+    
+    static boolean esSoloLetras(String cadena)
+	{
+    	boolean resul = true;
+		for (int i = 0; i < cadena.length(); i++)
+		{
+			char caracter = cadena.toUpperCase().charAt(i);
+			int valorASCII = (int)caracter;
+			if (valorASCII != 32 && valorASCII != 165 && (valorASCII < 65 || valorASCII > 90))
+				resul = false;
+		}
+		return resul;
+	}
 }
