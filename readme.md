@@ -33,11 +33,11 @@
 	public long calculoTarifa(long tarifaBase, int diasAntelacion, int edad)
 ~~~
 **clases de equivalencia**
-Número | Clase de equivalencia (en lenguaje natural o matemático). | Resultado correcto / incorrecto
--- | -- | --
-1 | valor base debe ser un real positivo| vb=100.000, vb=200.888,55 , vb=-522.000
-2 | Edad de la persona tiene que estar en un rango de 0 a 130 | edad=23, edad=-20, edad=150
-3 | dias de antelacion es un numero positivo y contiene al 0, sabiendo que el 0 significa que se pidio el mimo dia | dia=-9, dia=28
+|Número | Clase de equivalencia (en lenguaje natural o matemático). | Resultado correcto / incorrecto|
+|:--: | :-- | :--|
+|1 | valor base debe ser un real positivo| vb=100.000, vb=200.888,55 , vb=-522.000 |
+|2 | Edad de la persona tiene que estar en un rango de 0 a 130 | edad=23, edad=-20, edad=150 |
+|3 | dias de antelacion es un numero positivo y contiene al 0, sabiendo que el 0 significa que se pidio el mimo dia | dia=-9, dia=28 |
 
 ** casos de prueba **
 tarifaBase = 100000 , diasAntelacion=22 , edad = 40 --> R = 85000
