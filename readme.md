@@ -47,47 +47,36 @@
  * tarifaBase = 100000 , diasAntelacion=22 , edad = 170 --> R = INVALID
 
 **frontera**
-<<<<<<< HEAD
 	1. tarifa
-=======
-	1 tarifa
->>>>>>> e1a2cf030be54467fbb80158500751d78fe74264
  		* tarifaBase = -1, diasAntelacion=22 , edad = 40 
  		* tarifaBase = 0, diasAntelacion=22 , edad = 40 
  		* tarifaBase = 1, diasAntelacion=22 , edad = 40
  		* tarifaBase = 10000, diasAntelacion=22 , edad = 40
-<<<<<<< HEAD
 	2. Edad
-=======
-	2 Edad
->>>>>>> e1a2cf030be54467fbb80158500751d78fe74264
  		* tarifaBase = 100000 , diasAntelacion=22 , edad = 0
  		* tarifaBase = 100000 , diasAntelacion=22 , edad = -20
  		* tarifaBase = 100000 , diasAntelacion=22 , edad = -1
  		* tarifaBase = 100000 , diasAntelacion=22 , edad = 15
  		* tarifaBase = 100000 , diasAntelacion=22 , edad = 17
-<<<<<<< HEAD
  		* tarifaBase = 100000 , diasAntelacion=22 , edad = 18
 		* tarifaBase = 100000 , diasAntelacion=22 , edad = 30
  		* tarifaBase = 100000 , diasAntelacion=22 , edad = 65
-=======
- * tarifaBase = 100000 , diasAntelacion=22 , edad = 18
- * tarifaBase = 100000 , diasAntelacion=22 , edad = 30
- * tarifaBase = 100000 , diasAntelacion=22 , edad = 65
->>>>>>> e1a2cf030be54467fbb80158500751d78fe74264
- * tarifaBase = 100000 , diasAntelacion=22 , edad = 66
- * tarifaBase = 100000 , diasAntelacion=22 , edad = 80
- * tarifaBase = 100000 , diasAntelacion=22 , edad = 109
- * tarifaBase = 100000 , diasAntelacion=22 , edad = 110
- * tarifaBase = 100000 , diasAntelacion=22 , edad = 111
- * tarifaBase = 100000 , diasAntelacion=22 , edad = 130
-3. Dias Anelacion
- * tarifaBase = 100000 , diasAntelacion=-25 , edad = 22
- * tarifaBase = 100000 , diasAntelacion=-2 , edad = 22
- * tarifaBase = 100000 , diasAntelacion=-1 , edad = 22
- * tarifaBase = 100000 , diasAntelacion=0, edad = 22
- * tarifaBase = 100000 , diasAntelacion=1 , edad = 109
- * tarifaBase = 100000 , diasAntelacion=15 , edad = 110
- * tarifaBase = 100000 , diasAntelacion=20 , edad = 111
- * tarifaBase = 100000 , diasAntelacion=21 , edad = 130
- * tarifaBase = 100000 , diasAntelacion=50 , edad = 22
+		* tarifaBase = 100000 , diasAntelacion=22 , edad = 18
+		* tarifaBase = 100000 , diasAntelacion=22 , edad = 30
+ 		* tarifaBase = 100000 , diasAntelacion=22 , edad = 65
+ 		* tarifaBase = 100000 , diasAntelacion=22 , edad = 66
+		* tarifaBase = 100000 , diasAntelacion=22 , edad = 80
+		* tarifaBase = 100000 , diasAntelacion=22 , edad = 109
+		* tarifaBase = 100000 , diasAntelacion=22 , edad = 110
+		* tarifaBase = 100000 , diasAntelacion=22 , edad = 111
+		* tarifaBase = 100000 , diasAntelacion=22 , edad = 130
+	3. Dias Anelacion
+		* tarifaBase = 100000 , diasAntelacion=-25 , edad = 22
+		* tarifaBase = 100000 , diasAntelacion=-2 , edad = 22
+ 		* tarifaBase = 100000 , diasAntelacion=-1 , edad = 22
+ 		* tarifaBase = 100000 , diasAntelacion=0, edad = 22
+ 		* tarifaBase = 100000 , diasAntelacion=1 , edad = 109
+ 		* tarifaBase = 100000 , diasAntelacion=15 , edad = 110
+ 		* tarifaBase = 100000 , diasAntelacion=20 , edad = 111
+ 		* tarifaBase = 100000 , diasAntelacion=21 , edad = 130
+ 		* tarifaBase = 100000 , diasAntelacion=50 , edad = 22
