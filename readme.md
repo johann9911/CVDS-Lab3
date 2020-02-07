@@ -39,35 +39,35 @@
 |2 | Edad de la persona tiene que estar en un rango de 0 a 130 | edad=23, edad=-20, edad=150 |
 |3 | dias de antelacion es un numero positivo y contiene al 0, sabiendo que el 0 significa que se pidio el mimo dia | dia=-9, dia=28 |
 
-** casos de prueba **
-tarifaBase = 100000 , diasAntelacion=22 , edad = 40 --> R = 85000
-tarifaBase = 100000 , diasAntelacion=22 , edad = 80 --> R = 77000
-tarifaBase = 100000 , diasAntelacion=22 , edad = 5 --> R = 72000
-tarifaBase = -55555, diasAntelacion=22 , edad = 5 --> R = INVALID
-tarifaBase = 100000 , diasAntelacion=22 , edad = 170 --> R = INVALID
+**casos de prueba**
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 40 --> R = 85000
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 80 --> R = 77000
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 5 --> R = 72000
+ * tarifaBase = -55555, diasAntelacion=22 , edad = 5 --> R = INVALID
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 170 --> R = INVALID
 
 **frontera**
-1 tarifa
- * tarifaBase = -1, diasAntelacion=22 , edad = 40 
- * tarifaBase = 0, diasAntelacion=22 , edad = 40 
- * tarifaBase = 1, diasAntelacion=22 , edad = 40
- * tarifaBase = 10000, diasAntelacion=22 , edad = 40
-2 Edad
- * tarifaBase = 100000 , diasAntelacion=22 , edad = 0
- * tarifaBase = 100000 , diasAntelacion=22 , edad = -20
- * tarifaBase = 100000 , diasAntelacion=22 , edad = -1
- * tarifaBase = 100000 , diasAntelacion=22 , edad = 15
- * tarifaBase = 100000 , diasAntelacion=22 , edad = 17
- * tarifaBase = 100000 , diasAntelacion=22 , edad = 18
- * tarifaBase = 100000 , diasAntelacion=22 , edad = 30
- * tarifaBase = 100000 , diasAntelacion=22 , edad = 65
+	1. tarifa
+ 		* tarifaBase = -1, diasAntelacion=22 , edad = 40 
+ 		* tarifaBase = 0, diasAntelacion=22 , edad = 40 
+ 		* tarifaBase = 1, diasAntelacion=22 , edad = 40
+ 		* tarifaBase = 10000, diasAntelacion=22 , edad = 40
+	2. Edad
+ 		* tarifaBase = 100000 , diasAntelacion=22 , edad = 0
+ 		* tarifaBase = 100000 , diasAntelacion=22 , edad = -20
+ 		* tarifaBase = 100000 , diasAntelacion=22 , edad = -1
+ 		* tarifaBase = 100000 , diasAntelacion=22 , edad = 15
+ 		* tarifaBase = 100000 , diasAntelacion=22 , edad = 17
+ 		* tarifaBase = 100000 , diasAntelacion=22 , edad = 18
+		* tarifaBase = 100000 , diasAntelacion=22 , edad = 30
+ 		* tarifaBase = 100000 , diasAntelacion=22 , edad = 65
  * tarifaBase = 100000 , diasAntelacion=22 , edad = 66
  * tarifaBase = 100000 , diasAntelacion=22 , edad = 80
  * tarifaBase = 100000 , diasAntelacion=22 , edad = 109
  * tarifaBase = 100000 , diasAntelacion=22 , edad = 110
  * tarifaBase = 100000 , diasAntelacion=22 , edad = 111
  * tarifaBase = 100000 , diasAntelacion=22 , edad = 130
-2 Dias Anelacion
+3. Dias Anelacion
  * tarifaBase = 100000 , diasAntelacion=-25 , edad = 22
  * tarifaBase = 100000 , diasAntelacion=-2 , edad = 22
  * tarifaBase = 100000 , diasAntelacion=-1 , edad = 22
