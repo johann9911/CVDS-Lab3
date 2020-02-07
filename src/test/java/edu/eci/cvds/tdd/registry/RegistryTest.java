@@ -40,6 +40,40 @@ public class RegistryTest {
     	Assert.assertEquals(RegisterResult.INVALID_AGE, result);
     }
     
+    @Test
+    public void DeberiaValidarPersonaViva() {
+    	Person person = new Person("Juan Perez",1000032927,25,Gender.MALE,false);
+    	Person person2 = new Person("Juanita Perez",1000032977,25,Gender.MALE,true);
+    	RegisterResult result = registry.registerVoter(person);
+    	RegisterResult result2 = registry.registerVoter(person2);
+    	Assert.assertEquals(RegisterResult.DEAD, result);
+    	Assert.assertEquals(RegisterResult.VALID, result2);
+    }
+    
+    @Test
+    public void DeberiaValidarNumeroDigitosTD() {
+    	Person person;
+    	RegisterResult result;
+    	//Identificacion de 7 digitos
+    	person = new Person("Juanita Perez",1000032,25,Gender.MALE,true);
+    	result = registry.registerVoter(person);
+    	Assert.assertEquals(RegisterResult.INVALID, result);
+    	//Identificacion de 8 digitos
+    	person = new Person("Juanita Perez",10000320,25,Gender.MALE,true);
+    	result = registry.registerVoter(person);
+    	Assert.assertEquals(RegisterResult.VALID, result);
+    	//Identificacion de 11 digitos
+    	person = new Person("Juanita Perez",1000032758,25,Gender.MALE,true);
+    	result = registry.registerVoter(person);
+    	Assert.assertEquals(RegisterResult.VALID, result);
+    	//Identificacion de 12 digitos
+    	person = new Person("Juanita Perez",100007888,25,Gender.MALE,true);
+    	result = registry.registerVoter(person);
+    	Assert.assertEquals(RegisterResult.VALID, result);
+    }
+    
+    
+    
     
     public void validateRegistryResult() {
 
