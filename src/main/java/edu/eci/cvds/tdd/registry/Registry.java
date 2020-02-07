@@ -14,7 +14,7 @@ public class Registry {
         		registro = RegisterResult.INVALID_AGE;
         	}
         }
-        //if(!(p.getGender().equals(Gender.FEMALE) || p.getGender().equals(Gender.MALE)|| p.getGender().equals(Gender.UNIDENTIFIED))); registro = RegisterResult.INVALID;
+        if(!(p.getGender().equals(Gender.FEMALE) || p.getGender().equals(Gender.MALE)|| p.getGender().equals(Gender.UNIDENTIFIED))) registro = RegisterResult.INVALID;
         if(!esSoloLetras(p.getName()))registro = RegisterResult.INVALID;
         if(!p.isAlive())registro = RegisterResult.DEAD;
         if(identificaciones.contains(p.getId())) registro= RegisterResult.DUPLICATED;
