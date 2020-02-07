@@ -20,6 +20,7 @@
 
 ## Ejercicio "Descuento de tarifas"
 **Especificación**
+~~~
 	/**
 	calcular la tarifa de cada billete según el trayecto, la antelación
 	en la que se obtiene el billete y la edad del pasajero, de acuerdo
@@ -30,6 +31,7 @@
 	@throws ExcepcionParametrosInvalidos valor base<=0 , dias de antelacion<0, edad<0, edad>=110
 	**/
 	public long calculoTarifa(long tarifaBase, int diasAntelacion, int edad)
+~~~
 **clases de equivalencia**
 Número | Clase de equivalencia (en lenguaje natural o matemático). | Resultado correcto / incorrecto
 -- | -- | --
