@@ -20,16 +20,16 @@
 
 ## Ejercicio "Descuento de tarifas"
 **Especificación**
-/**
-calcular la tarifa de cada billete según el trayecto, la antelación
-en la que se obtiene el billete y la edad del pasajero, de acuerdo
-con la normativa 005.
-@param tarifaBase valor base del vuelo
-@param diasAntelacion dias de antelación del vuelo
-@param edad - edad del pasajero
-@throws ExcepcionParametrosInvalidos valor base<=0 , dias de antelacion<0, edad<0, edad>=110
-**/
-public long calculoTarifa(long tarifaBase, int diasAntelacion, int edad)
+	/**
+	calcular la tarifa de cada billete según el trayecto, la antelación
+	en la que se obtiene el billete y la edad del pasajero, de acuerdo
+	con la normativa 005.
+	@param tarifaBase valor base del vuelo
+	@param diasAntelacion dias de antelación del vuelo
+	@param edad - edad del pasajero
+	@throws ExcepcionParametrosInvalidos valor base<=0 , dias de antelacion<0, edad<0, edad>=110
+	**/
+	public long calculoTarifa(long tarifaBase, int diasAntelacion, int edad)
 **clases de equivalencia**
 Número | Clase de equivalencia (en lenguaje natural o matemático). | Resultado correcto / incorrecto
 -- | -- | --
