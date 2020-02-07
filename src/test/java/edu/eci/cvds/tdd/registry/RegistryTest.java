@@ -33,6 +33,13 @@ public class RegistryTest {
         Assert.assertEquals(RegisterResult.DUPLICATED, result2);
     }
     
+    @Test
+    public void DeberiaInvalidarUnaEdadErronea() {
+    	Person person = new Person("pepito Perez",1000032927,-12,Gender.MALE,true);
+    	RegisterResult result = registry.registerVoter(person);
+    	Assert.assertEquals(RegisterResult.INVALID_AGE, result);
+    }
+    
     
     public void validateRegistryResult() {
 
