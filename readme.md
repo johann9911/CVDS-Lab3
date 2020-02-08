@@ -5,7 +5,7 @@
 
 
 ## Ejercicio Registraduría
-**clases de equivalencia **
+**clases de equivalencia**
 - La edad de la persona tiene que ser valida es decir mayor a 18 años
 		casos de prueba: edad=17,18,19,2,30,-12
 - La persona ha de estar viva
@@ -48,35 +48,35 @@
 
 **frontera**
 	1. tarifa
- 		* tarifaBase = -1, diasAntelacion=22 , edad = 40 
- 		* tarifaBase = 0, diasAntelacion=22 , edad = 40 
- 		* tarifaBase = 1, diasAntelacion=22 , edad = 40
- 		* tarifaBase = 10000, diasAntelacion=22 , edad = 40
+ * tarifaBase = -1, diasAntelacion=22 , edad = 40 
+ * tarifaBase = 0, diasAntelacion=22 , edad = 40 
+ * tarifaBase = 1, diasAntelacion=22 , edad = 40
+ * tarifaBase = 10000, diasAntelacion=22 , edad = 40
 	2. Edad
- 		* tarifaBase = 100000 , diasAntelacion=22 , edad = 0
- 		* tarifaBase = 100000 , diasAntelacion=22 , edad = -20
- 		* tarifaBase = 100000 , diasAntelacion=22 , edad = -1
- 		* tarifaBase = 100000 , diasAntelacion=22 , edad = 15
- 		* tarifaBase = 100000 , diasAntelacion=22 , edad = 17
- 		* tarifaBase = 100000 , diasAntelacion=22 , edad = 18
-		* tarifaBase = 100000 , diasAntelacion=22 , edad = 30
- 		* tarifaBase = 100000 , diasAntelacion=22 , edad = 65
-		* tarifaBase = 100000 , diasAntelacion=22 , edad = 18
-		* tarifaBase = 100000 , diasAntelacion=22 , edad = 30
- 		* tarifaBase = 100000 , diasAntelacion=22 , edad = 65
- 		* tarifaBase = 100000 , diasAntelacion=22 , edad = 66
-		* tarifaBase = 100000 , diasAntelacion=22 , edad = 80
-		* tarifaBase = 100000 , diasAntelacion=22 , edad = 109
-		* tarifaBase = 100000 , diasAntelacion=22 , edad = 110
-		* tarifaBase = 100000 , diasAntelacion=22 , edad = 111
-		* tarifaBase = 100000 , diasAntelacion=22 , edad = 130
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 0
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = -20
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = -1
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 15
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 17
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 18
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 30
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 65
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 18
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 30
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 65
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 66
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 80
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 109
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 110
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 111
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 130
 	3. Dias Anelacion
-		* tarifaBase = 100000 , diasAntelacion=-25 , edad = 22
-		* tarifaBase = 100000 , diasAntelacion=-2 , edad = 22
- 		* tarifaBase = 100000 , diasAntelacion=-1 , edad = 22
- 		* tarifaBase = 100000 , diasAntelacion=0, edad = 22
- 		* tarifaBase = 100000 , diasAntelacion=1 , edad = 109
- 		* tarifaBase = 100000 , diasAntelacion=15 , edad = 110
- 		* tarifaBase = 100000 , diasAntelacion=20 , edad = 111
- 		* tarifaBase = 100000 , diasAntelacion=21 , edad = 130
- 		* tarifaBase = 100000 , diasAntelacion=50 , edad = 22
+ * tarifaBase = 100000 , diasAntelacion=-25 , edad = 22
+ * tarifaBase = 100000 , diasAntelacion=-2 , edad = 22
+ * tarifaBase = 100000 , diasAntelacion=-1 , edad = 22
+ * tarifaBase = 100000 , diasAntelacion=0, edad = 22
+ * tarifaBase = 100000 , diasAntelacion=1 , edad = 109
+ * tarifaBase = 100000 , diasAntelacion=15 , edad = 110
+ * tarifaBase = 100000 , diasAntelacion=20 , edad = 111
+ * tarifaBase = 100000 , diasAntelacion=21 , edad = 130
+ * tarifaBase = 100000 , diasAntelacion=50 , edad = 22
