@@ -47,12 +47,15 @@
  * tarifaBase = 100000 , diasAntelacion=22 , edad = 170 --> R = INVALID
 
 **frontera**
-	1. tarifa
+
+1. tarifa
  * tarifaBase = -1, diasAntelacion=22 , edad = 40 
  * tarifaBase = 0, diasAntelacion=22 , edad = 40 
  * tarifaBase = 1, diasAntelacion=22 , edad = 40
  * tarifaBase = 10000, diasAntelacion=22 , edad = 40
-	2. Edad
+ 
+ 
+2. Edad
  * tarifaBase = 100000 , diasAntelacion=22 , edad = 0
  * tarifaBase = 100000 , diasAntelacion=22 , edad = -20
  * tarifaBase = 100000 , diasAntelacion=22 , edad = -1
@@ -70,7 +73,7 @@
  * tarifaBase = 100000 , diasAntelacion=22 , edad = 110
  * tarifaBase = 100000 , diasAntelacion=22 , edad = 111
  * tarifaBase = 100000 , diasAntelacion=22 , edad = 130
-	3. Dias Anelacion
+3. Dias Anelacion
  * tarifaBase = 100000 , diasAntelacion=-25 , edad = 22
  * tarifaBase = 100000 , diasAntelacion=-2 , edad = 22
  * tarifaBase = 100000 , diasAntelacion=-1 , edad = 22
