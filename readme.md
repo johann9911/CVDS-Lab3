@@ -42,7 +42,7 @@
 **casos de prueba**
  * tarifaBase = 100000 , diasAntelacion=22 , edad = 40 --> R = 85000
  * tarifaBase = 100000 , diasAntelacion=22 , edad = 80 --> R = 77000
- * tarifaBase = 100000 , diasAntelacion=22 , edad = 5 --> R = 72000
+ * tarifaBase = 100000 , diasAntelacion=22 , edad = 5 --> R = 80000
  * tarifaBase = -55555, diasAntelacion=22 , edad = 5 --> R = INVALID
  * tarifaBase = 100000 , diasAntelacion=22 , edad = 170 --> R = INVALID
 
@@ -78,8 +78,8 @@
  * tarifaBase = 100000 , diasAntelacion=-2 , edad = 22
  * tarifaBase = 100000 , diasAntelacion=-1 , edad = 22
  * tarifaBase = 100000 , diasAntelacion=0, edad = 22
- * tarifaBase = 100000 , diasAntelacion=1 , edad = 109
- * tarifaBase = 100000 , diasAntelacion=15 , edad = 110
- * tarifaBase = 100000 , diasAntelacion=20 , edad = 111
- * tarifaBase = 100000 , diasAntelacion=21 , edad = 130
+ * tarifaBase = 100000 , diasAntelacion=1 , edad = 22
+ * tarifaBase = 100000 , diasAntelacion=15 , edad = 22
+ * tarifaBase = 100000 , diasAntelacion=20 , edad = 22
+ * tarifaBase = 100000 , diasAntelacion=21 , edad = 22
  * tarifaBase = 100000 , diasAntelacion=50 , edad = 22
