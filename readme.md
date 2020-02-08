@@ -83,3 +83,6 @@
  * tarifaBase = 100000 , diasAntelacion=20 , edad = 22
  * tarifaBase = 100000 , diasAntelacion=21 , edad = 22
  * tarifaBase = 100000 , diasAntelacion=50 , edad = 22
+
+
+![Pruebas](Capture.PNG)
